@@ -1,0 +1,118 @@
+:root {
+  --bg: #f6f8fb;
+  --card: #fff;
+  --primary: #2563eb;
+  --border: #e5e7eb
+}
+
+.dark {
+  --bg: #0b1220;
+  --card: #0f172a;
+  --border: #1e293b;
+  --primary: #38bdf8
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, Segoe UI, Roboto, Ubuntu;
+  background: var(--bg)
+}
+
+.nav {
+  display: flex;
+  gap: 16px;
+  padding: 12px;
+  background: #0f172a;
+  color: #fff
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none
+}
+
+.container {
+  padding: 16px
+}
+
+form {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  display: grid;
+  gap: 8px
+}
+
+input,
+select,
+textarea,
+button {
+  padding: 8px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin-right: 4px;
+}
+
+button {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  cursor: pointer
+}
+
+button:hover {
+  opacity: .9
+}
+
+ul {
+  list-style: none;
+  padding: 0
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse
+}
+
+th,
+td {
+  padding: 8px;
+  border-bottom: 1px solid var(--border)
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, .4);
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.modal>div {
+  background: var(--card);
+  padding: 20px;
+  border-radius: 12px;
+  width: 400px
+}
+
+li {
+  background: var(--card);
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border)
+}
+
+
+.error {
+  background: rgba(220, 38, 38, 0.6);
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+
+
