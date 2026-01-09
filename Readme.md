@@ -263,10 +263,10 @@ Authorization: Bearer <access_token>
 
 # 🧩 Data Integrity Rules
 
-✔ Each doctor–patient pair is unique
-✔ Removing a doctor removes all their mappings
-✔ Removing a patient removes all their mappings
-✔ Duplicate assignment is blocked by backend
+✔ Each doctor–patient pair is unique  
+✔ Removing a doctor removes all their mappings  
+✔ Removing a patient removes all their mappings  
+✔ Duplicate assignment is blocked by backend  
 ---
 
 # ✅ Final Notes
